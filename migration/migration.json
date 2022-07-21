@@ -1,0 +1,38 @@
+{
+    "users": [
+        {
+            "name": "Owner",
+            "email": "owner@gmail.com",
+            "phone": "09100100100",
+            "passwd": "123123123"
+        },
+        {
+            "name": "Manager",
+            "email": "manager@gmail.com",
+            "phone": "09200200200",
+            "passwd": "123123123"
+        }
+    ],
+    "roles": [
+        {
+            "name": "Owner"
+        },
+        {
+            "name": "Manager"
+        },
+        {
+            "name": "Supervisor"
+        }
+    ],
+    "permits": [
+        {
+            "name": "Create_Category"
+        },
+        {
+            "name": "Edit_Category"
+        },
+        {
+            "name": "Delete_Category"
+        }
+    ]
+}
