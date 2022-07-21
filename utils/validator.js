@@ -16,8 +16,7 @@ module.exports = {
                 next(new Error("Body is Empty!"))
             }
         }
-    }
-    ,
+    },
     validateParams: (schema, name) => {
         return (req, res, next) => {
             let obj = {};

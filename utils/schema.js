@@ -36,6 +36,15 @@ module.exports = {
             permitId: Joi.string().regex(/^[0-9a-fA-F]{24}$/).required()
         })
     },
+    CatSchema: {
+        add: Joi.object({
+            name: Joi.string().required(),
+            image: Joi.string().required(),
+        }),
+        edit: Joi.object({
+            name: Joi.string().required()
+        })
+    },
     AllSchema: {
         id: Joi.object({
             id: Joi.string().regex(/^[0-9a-fA-F]{24}$/).required()
